@@ -4,6 +4,12 @@ So before going into React let's try to understand the problem it solves. To do 
 
 ![Movie Watch List](https://github.com/nnnkit/ac-js-images/blob/master/react/movie-watch.jpg?raw=true)
 
+#### Approach to use while creating movie watch list app
+
+<div class="youtube-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/lOnhqKLKycU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 #### Requirements
 
 - User can enter a movie name
