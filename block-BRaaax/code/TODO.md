@@ -1,55 +1,40 @@
 # Button Design System
 
-Create multiple sets of button on the basis of the following:
+## Properties That The Button Component Can Be Passed
 
-- `type`
-- `size`
-- `color`
+| Property         | Description                         | Type          | Required |
+| :--------------- | :---------------------------------- | :------------ | :------- |
+| `disabled`       | Sets the button to a disabled state | `boolean`     | false    |
+| `label `         | The button text                     | `string`      | true     |
+| `onClickHandler` | The action to be dispatched onClick | `function`    | true     |
+| `size`           | The size of the button              | `ButtonSizes` | false    |
+| `type`           | The type of button                  | `ButtonTypes` | false    |
 
-## These are the requirements
+## Types
 
-Button Types -
-
-- primary
-- secondary
-- tertiary
-
-Button Sizes -
-
-- small
-- medium
-- large
-
-- Component will also accept a `handleClick` prop which will accept a callback function. That callback function will be called when you click on the button.
-
-### Bonus
-
-Add Theme Support -
-
-- light
-- dark
+| Type          | Values                           | Default    |
+| :------------ | :------------------------------- | :--------- |
+| `ButtonSizes` | `SMALL` `MEDIUM` `LARGE`         | `MEDIUM`   |
+| `ButtonTypes` | `PRIMARY` `SECONDARY` `TERTIARY` | `PRIMARY ` |
 
 ### Example of using the Button component
 
 ```jsx
 <Button
-  size="medium"
   label="Button"
-  type="primary"
 />
-
 <Button
   size="small"
   label="Button"
   type="secondary"
 />
-
 <Button
   size="large"
   label="Button"
   type="tertiary"
-  onClickHandler={() => alert("You CLicked Me!")}
+  onClickHandler={() => alert("You Clicked Me!")}
 />
+
 ```
 
 ### Demo
