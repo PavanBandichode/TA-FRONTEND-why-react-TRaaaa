@@ -1,20 +1,24 @@
-#### Movie App
+#### Movie Watchlist App
 
-So before going into React let's try to understand the problem it solves. To do that we will be making a small application using vanilla JavaScript named "Movie Watch List App"
+So before going into React let's try to understand the problem it solves. To do that we will be making a small application using JavaScript named "Movie Watch List App". To create this application use HTML, CSS and JavaScript.
 
-![Movie Watch List](https://github.com/nnnkit/ac-js-images/blob/master/react/movie-watch.jpg?raw=true)
-
-#### Approach to use while creating movie watch list app
+Make sure to watch this video before making the application
 
 <div class="youtube-embed">
-  <iframe src="https://www.youtube-nocookie.com/embed/lOnhqKLKycU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/LXdVy6MfUkk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 #### Requirements
 
-- User can enter a movie name
-- If user press enter the movie name will be added to the list below
+- User can add a movie name to the list
+- If you press enter the movie name will be added to the list (like a todo list)
 - Each movie will have status (either watched or to watch)
 - Default status will be `To Watch`
 - Clicking on button should change the state form `To Watch` to `Watched` or vice versa.
-- You will find all the instruction in the file named `TODO.md` inside `code` folder.
+
+#### How to make app
+
+- In this folder you will find a `html`, `css` and `js` file.
+- Add code in the respective files
+
+![Movie Watch List](https://github.com/nnnkit/ac-js-images/blob/master/react/movie-watch.jpg?raw=true)
