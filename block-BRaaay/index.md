@@ -1,7 +1,9 @@
 writeCode
 
-#### Requirements
+#### Steps to solve this exercise
 
-- Go through all the requirements you will find in `TODO.md` file inside `code` folder
-- The folder also contains other files and assets you will need to make the app
-- Write code in respective files
+- You will find a folder named `code` that contains all the information
+- The folder contains a file named `TODO.md`
+- `TODO.md` file contains the instruction to solve the exercise
+- Use the folder named `code` to keep the files used for creating the project
+- You can create any file you need
