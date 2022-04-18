@@ -1,0 +1,81 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  line-height: 1.5;
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 450px;
+  border: 8px solid rgb(233, 232, 232);
+  background-color: white;
+  box-shadow: 2px 2px 4px 2px gray;
+}
+#card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+header {
+  text-align: center;
+}
+header h2 {
+  color: black;
+  font-weight: 200;
+}
+
+img {
+  width: 450px;
+  background-size: contain;
+}
+
+.imgHolder {
+  position: relative;
+}
+.date {
+  background-color: #e54c3a;
+  color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.day {
+  font-size: 1.4rem;
+}
+.month {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.category {
+  background-color: #e54c3a;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  text-transform: uppercase;
+  padding: 0.5rem 0.8rem;
+}
+h2 {
+  color: #e54c3a;
+}
+.contain {
+  padding: 2.5rem;
+}
+p,
+time,
+h5,
+i {
+  color: gray;
+}
+.comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
