@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article-Card</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/4bebbcaf91.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      let cardInfo = {
+        title: "City Lights in New York",
+        date: new Date("2017-01-26"),
+        comments: 67,
+        subTitle: "The city that never sleeps.",
+        description:
+          "New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.",
+        category: "photos",
+        imageURL:
+          "https://images.unsplash.com/photo-1610874933184-7728fd666162?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      };
+      let div = (
+        <>
+          <div className="container">
+            <div className="imgHolder">
+              <img src={cardInfo.imageURL} alt="Image" />
+              <div className="date">
+                <div className="day">{cardInfo.date.getDate()}</div>
+                <div className="month">March</div>
+              </div>
+              <div className="category">{cardInfo.category}</div>
+            </div>
+            <div className="contain">
+              <h1>{cardInfo.title}</h1>
+              <h2>{cardInfo.subTitle}</h2>
+              <p>{cardInfo.description}</p>
+              <p className="comment">
+                06 mins ago &nbsp; &nbsp;
+                <i className="fa fa-comments"></i>&nbsp; {cardInfo.comments}{" "}
+                comments
+              </p>
+            </div>
+          </div>
+        </>
+      );
+      ReactDOM.render(div, document.getElementById("root"));
+    </script>
+  </body>
+</html>
