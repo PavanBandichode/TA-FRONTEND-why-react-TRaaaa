@@ -1,11 +1,9 @@
-import Colors from "./Colors";
+import Color from "./Colors";
+import colors from "./data";
 
 function App() {
-  return (
-    <>
-      <Colors />
-    </>
-  );
+  return Object.keys(colors).map((key) => (
+    <Color name={key} allColors={colors[key]} />
+  ));
 }
-
 export default App;
