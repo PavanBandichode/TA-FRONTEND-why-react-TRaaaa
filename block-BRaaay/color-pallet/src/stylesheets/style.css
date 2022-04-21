@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Custom Styles */
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+#root {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-coloum {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.color-container {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.color-box {
+  background-color: #9ca3af;
+  width: 150px;
+  height: 50px;
+  border-radius: 0.3rem;
+}
+
+.color-container p {
+  margin-top: 0.5rem;
+  padding: 0 0.1rem;
+}
+
+.color-weight {
+  color: black;
+  font-weight: 600;
+}
+
+.color-code {
+  color: rgb(100, 100, 100);
+}
+
+.shade {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.flex-15 {
+  flex: 0 1 15%;
+}
+
+.flex-84 {
+  flex: 0 1 84%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: rgb(60, 60, 60);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1fr;
+}
+.box {
+  width: 50px;
+  height: 20px;
+  padding: 2rem 3rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.flex-80 {
+  flex: 1 1 80%;
+  margin: 1.5rem;
+}
+.flex-15 {
+  width: 250px;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.code {
+  font-weight: 600;
+}
+.color {
+  color: gray;
+}
